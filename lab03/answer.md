@@ -75,6 +75,8 @@ Canny là một trong những phương pháp phát hiện cạnh hiệu quả nh
 - xác định cạnh chính xác
 - tạo đường biên mảnh và liên tục
 
+Nhược điểm
+
 ---
 
 ### b) So sánh với các thuật toán khác như:
