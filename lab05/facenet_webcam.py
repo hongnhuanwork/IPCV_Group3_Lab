@@ -3,15 +3,15 @@ from mtcnn import MTCNN
 from keras_facenet import FaceNet
 import numpy as np
 
-# Khởi tạo detector và embedder
-detector = MTCNN()
-embedder = FaceNet()
 
-# Giả sử bạn đã có một ảnh "chính chủ" để so sánh (Database)
-# Bạn cần trích xuất vector đặc trưng của ảnh này trước
+# Khởi tạo object
+detector = MTCNN()  # Phát hiện vị trí khuôn mặt
+embedder = FaceNet()    # Trích xuất đặc trưng, biến hình khuôn mặt thành một dãy vector
+
+
 img_target = cv2.imread(f'lab05/my_image.jpeg')
 img_target = cv2.cvtColor(img_target, cv2.COLOR_BGR2RGB)
-target_face_info = detector.detect_faces(img_target)
+target_face_info = detector.detect_faces(img_target)    # Tìm tọa độ khuôn mặt
 
 if target_face_info:
     x, y, w, h = target_face_info[0]['box']
