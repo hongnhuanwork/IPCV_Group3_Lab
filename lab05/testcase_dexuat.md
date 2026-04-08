@@ -38,3 +38,5 @@
 | Phone screen     | Ảnh hiển thị trên điện thoại      | Không ổn định   |
 | Printed photo    | Ảnh in                            | ⚠️ Có thể bị match sai        |
 ---
+
+pip install --no-cache-dir mtcnn tensorflow keras-facenet opencv-python
