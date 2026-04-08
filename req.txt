@@ -3,3 +3,6 @@ opencv-python
 pillow
 matplotlib
 scikit-image
+mtcnn
+keras-facenet
+scikit-learn
