@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eKsdbZK_Pf6v7uZv368i" name="Page-1">
-        <mxGraphModel dx="2808" dy="3962" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2485" dy="3599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -61,7 +61,7 @@
                 <mxCell id="79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="56" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="128-D embedding vector" style="html=1;whiteSpace=wrap;labelBorderColor=none;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
+                <mxCell id="56" value="512-D embedding vector" style="html=1;whiteSpace=wrap;labelBorderColor=none;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="-1431.75" y="-2250" width="297.5" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="COMPARISON" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=32;fontStyle=1" parent="1" vertex="1">
